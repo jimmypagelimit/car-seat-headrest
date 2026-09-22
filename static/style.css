@@ -1,0 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@400;600;700&display=swap');
+:root { --ink:#18201d; --paper:#f3f0e8; --acid:#d9f06c; --line:#b8b5aa; }
+* { box-sizing:border-box; } body { margin:0; color:var(--ink); background:var(--paper); font-family:'Space Grotesk',sans-serif; }
+main { max-width:1000px; margin:auto; padding:7vw 6vw; } header { border-bottom:2px solid var(--ink); padding-bottom:3rem; } .eyebrow { font:12px 'DM Mono',monospace; letter-spacing:.12em; }
+h1 { font-size:clamp(3rem,10vw,8rem); line-height:.9; letter-spacing:-.08em; max-width:800px; margin:1rem 0; } header p:last-child { font-size:1.2rem; max-width:520px; }
+section { padding:3rem 0; border-bottom:1px solid var(--line); } h2 { font-size:2rem; margin-top:0; } .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(210px,1fr)); gap:1rem; }
+article { border:1px solid var(--ink); padding:1.4rem; min-height:150px; background:var(--acid); } article h3 { margin-top:0; font-size:1.35rem; } a { color:inherit; font-family:'DM Mono',monospace; font-size:.8rem; } ul { padding-left:1.2rem; line-height:2; } small, footer { font-family:'DM Mono',monospace; font-size:.78rem; } footer { padding-top:2rem; }
